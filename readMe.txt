@@ -8,4 +8,6 @@ for email ---> http://localhost:1080
 docker run -p 1080:1080 -p 1025:1025 maildev/maildev    ---> for email sender
 open --->  http://localhost:1080/
 
+
+для dockerhub
 ./mvnw clean install  -P jib-push-to-dockerhub -D app.image.tag=3
